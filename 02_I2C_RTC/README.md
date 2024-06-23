@@ -25,20 +25,9 @@ Connect the RTC module to the ESP32 S3 CAM board as follows:
 - **RTC SDA** to **ESP32 GPIO9**
 - **RTC SCL** to **ESP32 GPIO8**
 
-### Software
-
-1. **Install the required libraries**:
-   - Open the Arduino IDE.
-   - Go to `Sketch` -> `Include Library` -> `Manage Libraries`.
-   - Search for `RTClib` and install it.
-   - Ensure `Wire` library is installed (it is usually included by default).
-
-2. **Upload the code**:
-   - Copy the provided code into the Arduino IDE.
-   - Select the correct board and port:
-     - Go to `Tools` -> `Board` -> `ESP32 Arduino` -> `ESP32 S3 CAM`.
-     - Go to `Tools` -> `Port` and select the appropriate port.
-   - Click on the upload button.
+### Requirements
+- RTClib.h
+- Wire.h (usually included by default)
 
 ### Explanation
 
